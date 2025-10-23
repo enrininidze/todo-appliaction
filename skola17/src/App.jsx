@@ -7,7 +7,7 @@ export default function App() {
   const [array, setArray] = useState([]);
   const [filteredArray, setFilteredArray] = useState([]);
   const [nextId, setNextId] = useState(0);
-
+console.log("master")
   function ChangeTheme() {
     setDark((prev) => !prev);
   }
